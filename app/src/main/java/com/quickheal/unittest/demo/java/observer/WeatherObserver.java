@@ -10,6 +10,6 @@ public class WeatherObserver implements Observer {
 
 	@Override
 	public void update(Observable observable, Object data) {
-		System.out.println("Weather Report Live. It's " + data);
+		System.out.println("Weather is " + data);
 	}
 }
