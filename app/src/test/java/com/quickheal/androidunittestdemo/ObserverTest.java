@@ -12,7 +12,7 @@ public class ObserverTest {
 
 	@Test
 	public void testObserver() {
-		WeatherObservable observable = new WeatherObservable(null);
+		WeatherObservable observable = new WeatherObservable();
 		WeatherObserver observer = new WeatherObserver();
 		observable.addObserver(observer);
 		observable.setWeather("Bright and sunny...Let's play cricket!!");
