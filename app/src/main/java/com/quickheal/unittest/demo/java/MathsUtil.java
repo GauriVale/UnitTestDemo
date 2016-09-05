@@ -2,19 +2,11 @@ package com.quickheal.unittest.demo.java;
 
 public class MathsUtil {
 
-	private int a;
-	private int b;
-	
-	public MathsUtil(int val1, int val2) {
-		a = val1;
-		b = val2;
-	}
-	
-	public int add() {
+	public static int add(int a, int b) {
 		return a + b;
 	}
 	
-	public int subtract() {
+	public static int subtract(int a, int b) {
 		return a - b;
 	}
 }
